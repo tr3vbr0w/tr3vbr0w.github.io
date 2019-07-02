@@ -1,22 +1,49 @@
 header {
-    background-color: green;
-    height: 40px;
+    background-color: #fff;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
 }
 #name{
     padding: 20px 30px 20px 30px;
-    background-color: gray;
+    background-color: #4aaaa5;
     font-size: 25px;
-    color: red;
-    position: fixed;
+    font-weight: bold;
+    color: #fff;
+    position: absolute;
+    margin-left: 180px;
 }
 #nav {
     float: right;
     width: 450px;
     height: 30px;
+    margin-top: 26px;
 }
 a {
     display: inline;
     padding-right: 50px;
     padding-top: 20px; 
-    font-size: 4em;
+    font-size: 1em;
+    text-decoration: none;
+}
+#main-body {
+    margin: 90px auto;
+    width: 50%;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+body{
+    background-image: url(images/);
+
+}
+h1 {
+    color: #4aaaa5;
+    font-size: 2em;
+    padding: 10px 10px;
+    font-weight: bold;
 }
