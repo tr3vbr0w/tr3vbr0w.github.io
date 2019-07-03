@@ -1,3 +1,6 @@
+html {
+    background-image: url(../images/crossline-lines.png);
+}
 header {
     background-color: #fff;
     height: 65px;
@@ -14,7 +17,6 @@ header {
     font-weight: bold;
     color: #fff;
     position: absolute;
-    margin-left: 180px;
 }
 #nav {
     float: right;
@@ -23,27 +25,22 @@ header {
     margin-top: 26px;
 }
 a {
-    display: inline;
-    padding-right: 50px;
-    padding-top: 20px; 
-    font-size: 1em;
+    padding-left: 34px;
+    font-size: 20px;
     text-decoration: none;
+    float: right;
 }
-#main-body {
-    margin: 90px auto;
-    width: 50%;
-    height: 400px;
-    position: relative;
-    background-color: #fff;
-    border: 1px solid #ddd;
+footer {
+    background-color: #666;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;
 }
-body{
-    background-image: url(images/);
 
-}
-h1 {
-    color: #4aaaa5;
-    font-size: 2em;
-    padding: 10px 10px;
-    font-weight: bold;
+#header-content {
+    margin: 0 auto;
+    width: 960px;
 }

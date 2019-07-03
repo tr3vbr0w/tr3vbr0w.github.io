@@ -1,0 +1,15 @@
+#main-body {
+    margin: 90px auto;
+    width: 960px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+h1 {
+    color: #4aaaa5;
+    font-size: 2em;
+    padding: 10px 10px;
+    font-weight: bold;
+}
