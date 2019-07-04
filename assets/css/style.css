@@ -5,6 +5,7 @@
     position: relative;
     background-color: #fff;
     border: 1px solid #ddd;
+    padding: 10px;
 }
 
 h1 {
@@ -12,4 +13,13 @@ h1 {
     font-size: 2em;
     padding: 10px 10px;
     font-weight: bold;
+}
+img {
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+p {
+    clear: right;
+    line-height: 3px;
 }
