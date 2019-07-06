@@ -11,7 +11,7 @@
 h1 {
     color: #4aaaa5;
     font-size: 2em;
-    padding: 10px 10px;
+    padding: 10px 0px;
     font-weight: bold;
 }
 img {
@@ -21,5 +21,32 @@ img {
 }
 p {
     clear: right;
-    line-height: 3px;
+    line-height: 3;
+    /* When using line height. do not use pixels, em or %, rather use just number and it will be default *number */
+}
+.foot{
+    padding: top;
+}
+#contact-body {
+    margin: 90px auto;
+    width: 920px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+#name-box {
+    width: 920px;
+    height: 35%;
+}
+#email-box {
+    width: 920px;
+    height: 15%; 
+}
+button {
+    background-color: #4aaaa5;
+    padding: 5px 10px 5px 10px;
+    color: white;
 }
