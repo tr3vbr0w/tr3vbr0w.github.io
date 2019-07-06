@@ -39,14 +39,25 @@ p {
 
 #name-box {
     width: 920px;
-    height: 35%;
 }
 #email-box {
     width: 920px;
-    height: 15%; 
+
 }
 button {
     background-color: #4aaaa5;
     padding: 5px 10px 5px 10px;
     color: white;
+}
+#container{
+
+}
+#portfolio-body {
+    margin: 90px auto;
+    width: 920px;
+    height: 400px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
 }
