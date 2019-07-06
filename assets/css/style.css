@@ -18,10 +18,11 @@ img {
     height: 200px;
     width: 200px;
     float: left;
+    margin-right: 10px;
 }
 p {
     clear: right;
-    line-height: 3;
+    line-height: 2;
     /* When using line height. do not use pixels, em or %, rather use just number and it will be default *number */
 }
 .foot{
@@ -50,7 +51,8 @@ button {
     color: white;
 }
 #container{
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     
 }
 #portfolio-body {
@@ -62,20 +64,20 @@ button {
     border: 1px solid #ddd;
     padding: 20px;
 }
-#hangman {
-    background-image: url("../images/maxresdefault.jpg");
-    background-size: 100%;
-}
+
 .design{
     width: 300px;
     height: 300px;
-    display: inline-flex;
+    margin: 20px;
+   
 }
-#facebook-placeholder {
-    background-image: url("../images/Facebook-settlement-3.19.19.jpeg");
-    background-size: 100%;
-}
-#rsi {
-    background-image: url("../images/download.jpg");
-    background-size: 100%;
+
+h1.banner {
+    width: 100%;
+    background-color: blue;
+    padding: 5px 0;
+    opacity: 40;
+    clear: both;
+    bottom: 0;
+    text-align: center;
 }
