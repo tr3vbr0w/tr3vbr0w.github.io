@@ -50,7 +50,8 @@ button {
     color: white;
 }
 #container{
-
+    display: inline-flex;
+    
 }
 #portfolio-body {
     margin: 90px auto;
@@ -60,4 +61,21 @@ button {
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 20px;
+}
+#hangman {
+    background-image: url("../images/maxresdefault.jpg");
+    background-size: 100%;
+}
+.design{
+    width: 300px;
+    height: 300px;
+    display: inline-flex;
+}
+#facebook-placeholder {
+    background-image: url("../images/Facebook-settlement-3.19.19.jpeg");
+    background-size: 100%;
+}
+#rsi {
+    background-image: url("../images/download.jpg");
+    background-size: 100%;
 }
